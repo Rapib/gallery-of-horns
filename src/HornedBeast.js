@@ -3,12 +3,18 @@ import "./HornedBeast.css"
 
 
 class HornedBeast extends React.Component {
+
   render (){
+    // console.log(this.props.data);
+
+
     return (
       <>
-      <h2>{this.props.title}</h2>
-      <img src={this.props.imageUrl} alt={this.props.alt} title={this.props.title}/>
-      <p>{this.props.description}</p>
+      <div className="box">
+        <h2>{this.props.title}</h2>
+        <img src={this.props.image_url} alt={this.props.keyword} title={this.props.title}/>
+        <p>{this.props.description}</p>
+      </div>
       </>
     )
   }

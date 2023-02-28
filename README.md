@@ -19,3 +19,42 @@ By the end of this module, you will create an application that displays images a
 
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
+
+
+
+### Lab 2
+
+Number and name of feature: Feature #1: Display Images
+
+Estimate of time needed to complete: 60min
+
+Start time: 1300
+
+Finish time: 1430_
+
+Actual time needed to complete: 90min
+
+---------------------
+
+Number and name of feature: Feature #2: Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+---------------------
+
+Number and name of feature: Feature 3: Bootstrap
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+

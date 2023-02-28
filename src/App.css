@@ -1,8 +1,23 @@
 body {
   background-color: antiquewhite;
+  width: 85%;
+  margin: auto;
 }
 
-.App {
+
+.box {
+  display: inline-block;
+
+  height: 300px;
+  width: 300px;
+  margin: auto;
+
+}
+
+.box img {
+  width: 200px;
+}
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +54,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */

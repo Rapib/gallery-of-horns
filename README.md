@@ -54,7 +54,7 @@ Estimate of time needed to complete: 120min
 
 Start time: 1530
 
-Finish time: _____
+Finish time: 1630
 
-Actual time needed to complete: _____
+Actual time needed to complete: 60min
 

@@ -14,6 +14,7 @@ class Main extends React.Component {
       key = {idx}
       description = {i.description}
       alt={i.keyword}
+      openModal = {this.props.openModal}
       />
     });
     return(

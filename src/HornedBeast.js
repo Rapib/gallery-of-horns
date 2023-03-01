@@ -10,15 +10,25 @@ class HornedBeast extends React.Component {
       favorites: 0
     };
   }
+
+
   clickFav = () => {
     this.setState (
       {favorites: this.state.favorites + 1,}
     )
+  };
+
+
+  clickBeast = () => {
+    this.props.openModal(this.props.title, this.props.image_url, this.props.description);
+    this.clickFav();
+
   }
+
   render (){
     // console.log(this.props.data);
-
   
+    
     return (
       <>
 
@@ -26,7 +36,7 @@ class HornedBeast extends React.Component {
 
        <h2>{this.props.title}</h2>
           <p>💖{this.state.favorites} <Badge bg="danger">Favorites</Badge></p>
-        <Card.Img onClick={this.clickFav} variant="top" src={this.props.image_url} alt={this.props.keyword} title={this.props.title} />
+        <Card.Img onClick={this.clickBeast} variant="top" src={this.props.image_url} alt={this.props.keyword} title={this.props.title} />
         <Card.Body>
           <Card.Text>
           {this.props.description}

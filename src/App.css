@@ -1,7 +1,11 @@
+
+
+
 #root {
   width: 90%;
   margin: auto;
   align-items: center;
+  background-color: antiquewhite;
 }
 
 
@@ -15,4 +19,13 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   /* align-items: center; */
+}
+
+.modal-body {
+text-align: center;
+  align-content: center;
+
+}
+.modal-body img {
+width: 500px;
 }

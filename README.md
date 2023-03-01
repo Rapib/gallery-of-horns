@@ -50,9 +50,9 @@ Actual time needed to complete: 60min
 
 Number and name of feature: Feature 3: Bootstrap
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 120min
 
-Start time: _____
+Start time: 1530
 
 Finish time: _____
 

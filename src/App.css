@@ -1,16 +1,17 @@
 
 
-
 #root {
   width: 90%;
   margin: auto;
   align-items: center;
-  background-color: antiquewhite;
 }
 
 
 h1{
-  color: rgb(0, 99, 66);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: rgb(95, 0, 105);
   text-align: center;
 }
 main {

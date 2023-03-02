@@ -1,9 +1,21 @@
 h2 {
   color: blueviolet;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .card {
   width: 250px;
   margin: 15px;
   align-items: center;
+}
+
+.card img {
+  padding: 15px;
+  border-radius: 50px;
+
+}
+
+.card img:hover {
+  cursor: pointer;
 }
